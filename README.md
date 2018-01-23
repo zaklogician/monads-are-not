@@ -30,8 +30,8 @@ category theory, and gives rise to the popular joke-explanation:
 
 *Monads are just monoids in the category of endofunctors.*
 
-Unfortunately, this summary is wrong. Some type theories (such as the dependent
-typetheory of Agda) have universes of types, which makes the two definitions
+Unfortunately, this summary is subtly wrong. Some type theories (such as the dependent
+type theory of Agda) have universes of types, which makes the two definitions
 different. The problem is that the types `a` and `m a` may live in two different
 universes, and then the expression `m (m a)` does not make sense.
 
